@@ -1,7 +1,7 @@
 const express=require("express")
-const dealerModel = require("../models/Dealer.model")
 const dealerAuth = require("../middleware/dealerAuth.middleware")
 const auth = require("../middleware/auth.middleware")
+const dealerModel = require("../models/Dealer.model")
 
 const dealerRouter=express.Router()
 
